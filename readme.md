@@ -12,7 +12,7 @@ AI Powered Role-Playing Chat Bot For **Telegram**.
 ### ✅ Step 1: Clone the Repository
 
 ```bash
-[git clone https://github.com/mehfooz084/easylang-translator.git](https://github.com/gauravjha-codes/telegram-persona-bot.git
+[git clone https://github.com/gauravjha-codes/telegram-persona-bot.git]
 cd telegram-persona-bot
 ```
 
