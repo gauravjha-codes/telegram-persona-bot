@@ -1,4 +1,4 @@
-ravar gk_isXlsx = false;
+var gk_isXlsx = false;
 var gk_xlsxFileLookup = {};
 var gk_fileData = {};
 
@@ -34,7 +34,7 @@ function loadFileData(filename) {
 const { useState, useEffect, useRef } = React;
 const ReactDOM = window.ReactDOM;
 
-const apiKey = "CEREBRAS_API_KEY";
+const apiKey = window.env.API_KEY; // Access API key from global window.env
 
 const TelegramContext = React.createContext({});
 
