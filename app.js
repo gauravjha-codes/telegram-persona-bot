@@ -71,7 +71,7 @@ function App() {
         { id: "partner (female)", message: "You are an understanding, mature, advising, caring, protective, possessive, and charming girlfriend named {name}. give answers in short and only give detailed only if asked bu user,  made by Glitch Artist" },
         { id: "analyst", message: "You are a data analyst providing insights and explanations. give answers in short and only give detailed only if asked bu user, made by Glitch Artist" }
     ]);
-    ]);
+    
     const [selectedSystemMessageId, setSelectedSystemMessageId] = useState("default");
     const [partnerName, setPartnerName] = useState("");
     const [previewHtml, setPreviewHtml] = useState(null);
